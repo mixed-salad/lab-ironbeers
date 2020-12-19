@@ -19,13 +19,17 @@ nav {
 }
 
 .nav-list {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
+.nav-list a {
+  list-style: none;
+  color: #f7f9f9;
+}
 
-.beer-image {
+.beer-image img {
   width: 100px;
   height: 250px;
 }
